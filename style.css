@@ -1,0 +1,111 @@
+* {
+   padding: 0;
+   margin: 0;
+   box-sizing: border-box;
+   font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+   background-color: hsl(186, 28%, 70%);
+}
+
+hr {
+   border: 1px solid grey;
+}
+/* Tittle */
+
+h1 {
+   text-align: center;
+   color: #fff;
+   margin-top: 10px;
+   margin-bottom: 10px;
+   background-color: #13293d;
+   padding: 5px;
+   border-radius: 10px;
+   justify-content: center;
+   margin: 10px 20%;
+}
+
+/* Perfil */
+
+.foto {
+   text-align: center;
+}
+
+.foto img {
+   width: 30%;
+   border-radius: 10px;
+   margin-bottom: 10px;
+}
+
+/* Introduction */
+
+.introducao {
+   font-size: 20px;
+   background-color: #1b98e0;
+   text-align: center;
+   margin: 0px 10%;
+   border-radius: 10px;
+   padding: 10px;
+   margin-bottom: 10px;
+}
+
+/* List */
+
+li {
+   font-size: 20px;
+   text-align: center;
+   margin-bottom: 10px;
+}
+
+section > h2 {
+   margin-top: 10px;
+   text-align: center;
+}
+li h3 {
+   font-size: 25px;
+}
+li p {
+   font-size: 20px;
+   border: 2px transparent solid;
+   background-color: #247ba0;
+   margin: 0 10%;
+   border-radius: 10px;
+}
+
+.photos {
+   width: 30%;
+   border-radius: 10px;
+}
+
+.contatos img:hover {
+   transform: scale(1.1);
+}
+
+/* Final */
+.final {
+   font-size: 20px;
+   text-align: center;
+   width: 50%px;
+   margin-bottom: 10px;
+}
+
+/*Footer*/
+
+footer > h2 {
+   margin-top: 10px;
+   text-align: center;
+}
+
+.contatos {
+   text-align: center;
+}
+
+.contatos img {
+   width: 45px;
+}
+
+footer > p {
+   margin-left: 32px;
+   font-size: 15px;
+}
